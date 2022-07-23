@@ -5,8 +5,8 @@
 	<link rel="canonical" href="{{ .Site.BaseURL }}">
 	<link rel='alternate' type='application/rss+xml' title="{{ .Site.Title }} RSS" href='/index.xml'>
     <link rel='stylesheet' href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-	<link rel='stylesheet' type='text/css' href='/mystyles.css'>
-    <link rel='stylesheet' type='text/css' href='/indexstyles.css'> 
+	<link rel='stylesheet' type='text/css' href='{{ .Site.BaseURL }}/mystyles.css'>
+    <link rel='stylesheet' type='text/css' href='{{ .Site.BaseURL }}/indexstyles.css'> 
 	{{ with .Site.Params.favicon }}<link rel="icon" href="{{ . }}">
 	{{ end -}}
 	<meta name="description" content="{{ with .Params.description }}{{ . }}{{ else }}{{ .Summary }}{{ end }}">
