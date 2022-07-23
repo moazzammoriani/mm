@@ -1,0 +1,12 @@
+main {
+    padding-bottom: 40px;
+    min-height: 90vh;
+}
+
+h1 { 
+    font-size: 36px;
+}
+
+#description {
+    font-size: 24px;
+}
