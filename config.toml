@@ -1,4 +1,4 @@
 baseURL = 'https://moazzammoriani.github.io/mm'
 languageCode = 'en-us'
 title = 'Moazzam Moriani'
-theme = 'lugo'
+theme = 'lugor'
