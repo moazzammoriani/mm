@@ -1,0 +1,24 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+	<title>Moazzam Moriani</title>
+	<link>http://example.org/blog/</link>
+	<description>Recent content in Blogs on Moazzam Moriani</description>
+	<generator>Hugo -- gohugo.io</generator>
+	<language>en-us</language>
+	<lastBuildDate>Tue, 19 Jul 2022 19:43:23 +0500</lastBuildDate>
+    
+        <atom:link href="http://example.org/blog/index.xml" rel="self" type="application/rss+xml" />
+	
+	
+	<item>
+		<title>First</title>
+		<link>http://example.org/blog/first/</link>
+		<pubDate>Tue, 19 Jul 2022 19:43:23 +0500</pubDate>
+		
+		<guid>http://example.org/blog/first/</guid>
+		<description>&lt;p&gt;This actually has stuff in it.&lt;/p&gt;
+</description>
+	</item>
+	
+	</channel>
+</rss>
